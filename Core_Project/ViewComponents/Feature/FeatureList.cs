@@ -10,7 +10,7 @@ namespace Core_Project.ViewComponents.Feature
        public IViewComponentResult Invoke()
         {
             var values = featureManager.TGetList();
-            return View();
+            return View(values);
         }
     }
 }

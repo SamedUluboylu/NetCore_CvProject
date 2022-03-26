@@ -22,7 +22,7 @@ namespace Business.Concrete
            _aboutDal.Insert(t);
         }
 
-        public List<About> GetList()
+        public List<About> TGetList()
         {
            return _aboutDal.GetList();
         }
